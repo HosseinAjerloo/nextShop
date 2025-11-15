@@ -1,6 +1,14 @@
 'use client'
-import '@/app/styles/globalError.css'
+import {useEffect} from "react";
+
 const GeneralError=({reset})=>{
+
+    useEffect(()=>{
+        const link=document.createElement('link');
+        link.rel='stylesheet';
+        link.href='/styles/globalError.css';
+        document.head.appendChild(link)
+    })
     return (<>
         <main className="bsod container">
             <h1 className="neg title"><span className="bg">Error - 404</span></h1>

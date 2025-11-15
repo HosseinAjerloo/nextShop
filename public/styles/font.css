@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Yekan-Bakh-Medium';
-    src: url("../../public/fonts/Yekan-Bakh-FaNum-05-Medium.eot")format('eot');
+    src: url("../fonts/Yekan-Bakh-FaNum-05-Medium.eot")format('eot');
 }
 @font-face {
     font-family: 'Yekan-Bakh-Medium';
-    src: url("../../public/fonts/Yekan-Bakh-FaNum-05-Medium.ttf")format('truetype');
+    src: url("../fonts/Yekan-Bakh-FaNum-05-Medium.ttf")format('truetype');
 }
 
 @font-face {
     font-family: 'Yekan-Bakh-Medium';
-    src: url("../../public/fonts/Yekan-Bakh-FaNum-06-Bold.ttf")format('truetype');
+    src: url("../fonts/Yekan-Bakh-FaNum-06-Bold.ttf")format('truetype');
 }
 
 
 @font-face {
     font-family: 'Yekan-Bakh-Medium';
-    src: url("../../public/fonts/Yekan-Bakh-FaNum-07-Heavy.ttf")format('truetype');
+    src: url("../fonts/Yekan-Bakh-FaNum-07-Heavy.ttf")format('truetype');
 }
 
 
