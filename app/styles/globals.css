@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "../styles/font.css";
+
+body, * {
+    direction: rtl;
+    font-family: 'Yekan-Bakh-Medium';
+}
+
+.process-error {
+    animation: linebar 2s ease-in-out infinite;
+}
+
+@keyframes linebar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 98%
+    }
+
+}
+@theme {
+    --color-primary-bg: #1a1a2e;
+    --color-sidebar-bg:#16213e;
+    --color-hover-bg:#0f3460;
+    --color-text-color:#ffff;
+    --color-highlight-color:#e94560
+}
+table tbody tr:nth-child(even) {
+    background-color: lab(96.1596% -0.082314 -1.13575);
+}
